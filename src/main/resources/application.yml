@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tcp-handshake
+
+logging:
+  level:
+    reactor:
+      netty:
+        tcp:
+          TcpServer: DEBUG
+          TcpClient: DEBUG
